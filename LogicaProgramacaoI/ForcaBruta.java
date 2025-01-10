@@ -9,7 +9,7 @@ public class ForcaBruta {
         System.out.print("Digite uma senha de 4 dígitos númericos: ");
         int senha = scanner.nextInt();
 
-        if (senha < 0 || senha > 9999) {
+        if (senha < 0000 || senha > 9999) {
             System.out.println("Senha inválida. Digite novamente 4 dígitos numéricos.");
             return;
         }
