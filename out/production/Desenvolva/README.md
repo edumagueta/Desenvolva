@@ -4,8 +4,9 @@ Repositório destinado aos conteudos de estudos e exercicios do curso Desenvolva
 
 ## Conteudos por modulos
 
-1. Lógica de Programação I
+1. Lógica de Programação
+2. Programação Orientada a Objeto I
 
 ### Créditos aos ensinamentos dos Professores nessa jornada
 
-Alex Facincani
+Alex Facincani, Marcel Tanuri
