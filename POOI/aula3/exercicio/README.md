@@ -24,7 +24,7 @@ Você deverá criar uma aplicação em Java que utiliza conceitos básicos de Pr
        - Para quem recebe vale-transporte e tem salário base acima de **R$ 2500.00**, aplica-se uma taxa adicional de **6% sobre o salário base**.
    - `calcularSalarioLiquido()`: Retorna o salário líquido do funcionário com a fórmula:
      ```java
-     salarioLiquido = salarioBase - desconto;
+     //salarioLiquido = salarioBase - desconto;
      ```
 
 3. **Receber dados pelo método `main`**:

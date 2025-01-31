@@ -1,3 +1,5 @@
+package POOI.aula5.src;
+
 class Locador {
 
     String nome;
