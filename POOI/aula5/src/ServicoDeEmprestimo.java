@@ -14,8 +14,7 @@ class ServicoDeEmprestimo {
          LocalDateTime dataHoraMaximaDeEntrega = LocalDateTime.now().plusHours(TOLERANCIA_ENTREGA_EM_HORAS);
          if(reciboEmprestimo.dataPrevistaDeDevolucao.isBefore(dataHoraMaximaDeEntrega)){
              return new ReciboDeDevolucao(reciboEmprestimo, LocalDateTime.now());
-         }
-         else{
+         } else {
              return new ReciboDeDevolucao(reciboEmprestimo, LocalDateTime.now(), "Entrega fora do prazo, passível de multa");
          }
     }

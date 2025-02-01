@@ -15,12 +15,11 @@ public class ReciboEmprestimoFactory {
         if (livro.regraDeEmprestimo == RegraDeEmprestimo.CURTA_DURACAO) {
             return LocalDateTime.now().plusDays(1);
         } else if (livro.regraDeEmprestimo == RegraDeEmprestimo.MEDIA_DURACAO) {
-            return LocalDateTime.now().plusDays(1);
+            return LocalDateTime.now().plusDays(3);
         } else if (livro.regraDeEmprestimo == RegraDeEmprestimo.LONGA_DURACAO) {
-            return LocalDateTime.now().plusDays(1);
+            return LocalDateTime.now().plusDays(7);
         }
 
         throw new IllegalArgumentException("Não foi possível calcular a data de devolução do livro, regraDeEmprestimo inválida");
     }
-
 }

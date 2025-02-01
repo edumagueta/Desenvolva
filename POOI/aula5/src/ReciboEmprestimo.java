@@ -9,17 +9,8 @@ class ReciboEmprestimo {
         this.locador = locador;
     }
 
-    ReciboEmprestimo(){
-
-    }
-
     LocalDateTime dataDeInicio;
-
     Livro livro;
-
     Locador locador;
-
     LocalDateTime dataPrevistaDeDevolucao;
-
-
 }

@@ -6,9 +6,6 @@ class App {
          Livro livro = new Livro();
          livro.autor = "Marcel Tanuri";
          livro.titulo = "O vendedor de códigos";
-
-          Livro outroLivro = new Livro() ;      ;
-
+         Livro outroLivro = new Livro();
     }
-
 }

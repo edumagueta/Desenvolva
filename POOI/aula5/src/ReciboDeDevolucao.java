@@ -5,9 +5,7 @@ import java.time.LocalDateTime;
 class ReciboDeDevolucao {
 
     ReciboEmprestimo reciboEmprestimo;
-
     LocalDateTime dataDevolucao;
-
     String observacao;
 
     public ReciboDeDevolucao(ReciboEmprestimo reciboEmprestimo, LocalDateTime dataDevolucao, String observacao) {
