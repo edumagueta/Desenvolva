@@ -1,7 +1,6 @@
-package LogicaProgramacaoI;
+package LogicaProgramacao;
 
 import java.util.Scanner;
-import java.util.SortedMap;
 
 public class QuadradoMagico {
     public static void main(String[] args){
