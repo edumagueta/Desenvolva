@@ -2,7 +2,7 @@ package service;
 
 import modelo.Funcionario;
 
-public class CalcularFeriasCLT implements ServicoDeCalculoFerias {
+public class CalcularFeriasCLT implements service.ServicoDeCalculoFerias {
 
     public double calcularFerias(Funcionario funcionario) {
         return funcionario.getSalario() * 2;

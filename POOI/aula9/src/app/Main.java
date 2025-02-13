@@ -1,11 +1,11 @@
-package app;
+package POOI.aula9.src.app;
 
 import modelo.Funcionario;
 import modelo.TipoFuncionario;
 import service.ServicoDeCalculoDeFeriasFactory;
 import service.ServicoDeCalculoFerias;
 
-public class MainCalc {
+public class Main {
 
     public static void main(String[] args) {
 

@@ -1,15 +1,15 @@
-package service;
+package POOI.aula9.src.service;
 
 import modelo.TipoFuncionario;
 
 public class ServicoDeCalculoDeFeriasFactory {
 
-    public static ServicoDeCalculoFerias obterLogicaDeCalculo(TipoFuncionario tipoFuncionario) {
+    public static service.ServicoDeCalculoFerias obterLogicaDeCalculo(TipoFuncionario tipoFuncionario) {
         return switch (tipoFuncionario) {
-            case CLT -> new CalcularFeriasCLT();
-            case PJ -> new CalcularFeriasPJ();
-            case ESTAGIARIO -> new CalcularFeriasEstagiario();
-            case COOPERADO -> new CalculadoraDeFeriasDoCooperado();
+            case CLT -> new service.CalcularFeriasCLT();
+            case PJ -> new service.CalcularFeriasPJ();
+            case ESTAGIARIO -> new service.CalcularFeriasEstagiario();
+            case COOPERADO -> new service.CalculadoraDeFeriasDoCooperado();
             default -> throw new IllegalArgumentException();        };
     }
 
