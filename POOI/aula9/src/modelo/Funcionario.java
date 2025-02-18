@@ -1,4 +1,4 @@
-package modelo;
+package POOI.aula9.src.modelo;
 
 public class Funcionario {
     private String nome;

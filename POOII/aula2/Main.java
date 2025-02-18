@@ -1,7 +1,5 @@
 package POOII.aula2;
 
-import br.com.pedro.aula1.exercicio.Pdf;
-
 import java.util.ArrayList;
 import java.util.List;
 

@@ -1,6 +1,6 @@
 package POOI.aula9.src.service;
 
-import modelo.TipoFuncionario;
+import POOI.aula9.src.modelo.TipoFuncionario;
 
 public class ServicoDeCalculoDeFeriasFactory {
 
@@ -12,9 +12,7 @@ public class ServicoDeCalculoDeFeriasFactory {
             case COOPERADO -> new service.CalculadoraDeFeriasDoCooperado();
             default -> throw new IllegalArgumentException();        };
     }
-
 }
-
 
 // ORM -> Classe -> Tabela campos da classe -> campos da tabela
 // quem cria a tabela nao é vc

@@ -1,7 +1,5 @@
 package POOII.aula2;
 
-import br.com.pedro.aula1.exercicio.Pdf;
-
 public class TesteGenerics {
 
     public static void main(String[] args) {

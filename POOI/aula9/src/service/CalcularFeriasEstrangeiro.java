@@ -1,6 +1,6 @@
-package service;
+package POOI.aula9.src.service;
 
-import modelo.Funcionario;
+import POOI.aula9.src.modelo.Funcionario;
 
 public class CalcularFeriasEstrangeiro implements ServicoDeCalculoFerias {
 

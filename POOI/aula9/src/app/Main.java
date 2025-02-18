@@ -1,9 +1,9 @@
 package POOI.aula9.src.app;
 
-import modelo.Funcionario;
-import modelo.TipoFuncionario;
-import service.ServicoDeCalculoDeFeriasFactory;
-import service.ServicoDeCalculoFerias;
+import POOI.aula9.src.modelo.Funcionario;
+import POOI.aula9.src.modelo.TipoFuncionario;
+import POOI.aula9.src.service.ServicoDeCalculoDeFeriasFactory;
+import POOI.aula9.src.service.ServicoDeCalculoFerias;
 
 public class Main {
 
