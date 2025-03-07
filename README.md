@@ -7,7 +7,8 @@ Repositório destinado aos conteudos de estudos e exercicios do curso Desenvolva
 1. Lógica de Programação
 2. Programação Orientada a Objeto I
 3. Programação Orientada a Objeto II
+4. Técnicas de Programação
 
 ### Créditos aos ensinamentos dos Professores nessa jornada!
 
-Alex Facincani, Marcel Tanuri, Pedro Oliveira
+Alex Facincani, Marcel Tanuri, Pedro Oliveira, William Santos
